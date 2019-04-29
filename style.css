@@ -1,0 +1,357 @@
+header{
+	width: 100%;
+	background: #FF1493;
+	margin-bottom: 0px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-items: flex-start;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	/* background: url(images/mimimi.jpg); */
+	font-family: Raleway, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #CD5C5C;
+}
+span{
+	color: #FFFFFF;
+	font-weight: 1000;
+	font-family: Verdana, sans-serif;
+	margin-left: 0px;
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+	vertical-align: middle;
+}
+
+#kitty_2{
+	height: 100px;
+	vertical-align: middle;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#kitty_5{
+	height: 150px;
+	vertical-align: middle;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#kitty_3{
+	height: 50px;
+	align-items: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+#kitty_1{
+	height: 60px;
+	align-items: center;
+	vertical-align: middle;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+#kitty-4{
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 150px;
+}
+.kitty-6{
+	margin-bottom: 50px;
+}
+
+#menu{
+	list-style: none;
+	margin-right: 50px;
+	position: right;
+	vertical-align: middle;
+	margin-top: 18px;
+	margin-bottom: 0;
+}
+
+#menu li{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#menu a{
+	color: #FFB6C1;
+	text-transform: uppercase; 
+	letter-spacing: 1px;
+	font-weight: bold;
+	display: block;
+	line-height: 40px;
+}
+
+#menu a:hover{
+	color: #EE82EE;
+}
+
+#menu li:last-child{
+	margin-right: 0;
+}
+
+#header{
+	position: fixed;
+	width: 100%;
+	height: 70px;
+}
+
+.bg-faded{
+	background-image: url(images/kitty_14.jpg);
+	background-position: top-center;
+	background-size: 100% auto;
+}
+
+#background-mimimi{
+	background-image: url(images/mimimi_1.jpg); 
+	/* background-repeat: no-repeat; */
+	background-position: top center;
+	/* background-attachment: scroll; */
+	background-size: 100% auto;
+	/* background-size: cover; */
+	display: block;
+	max-width: 100%;
+	height: auto;
+	background-clip: border-box;
+	padding-top: 2%;
+
+	/* margin-bottom: 32px; */
+	/* padding-bottom: 64px; */
+	/* -webkit-background-size: cover; */
+	/* -moz-background-size: cover; */
+	/* min-height: 668px; */
+	/* position: relative; */
+	}
+
+	/* .column{ */
+		/* padding-right: 15rem; */
+		/* padding-left: 15rem; */
+	/* } */
+
+.col-4{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0;
+	text-align: center;
+	font-size: 50;
+}
+
+.display{
+	font-family: "Yanone Kaffeesatz",Raleway,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	display: block;
+	font-size: 200%;
+	line-height: 200%;
+	letter-spacing: 2px;
+	color: #DDA0DD;
+	text-shadow: 1px 1px 5px #9400D3;
+	text-align: center;
+	margin-right: 50%;
+	margin-left: 0;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.mimi-hr {
+	border-top-color: #FF1493;
+	border-top-style: solid;
+	border-top-width: 1px;
+	width: 90%;
+	text-align: center;
+}
+
+.lead{
+	color: #FF1493;
+	font-family: "Yanone Kaffeesatz",Raleway,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	box-sizing: border-box;
+	display: block;
+	font-size: 1.25rem;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 15px #C71585;
+	font-weight: 900;
+	/* position: relative; */
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.social-networks{
+	color: #8B008B;
+	background-color: #DDA0DD;
+	border-color: #DDA0DD;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.25;
+	white-space: nowrap;
+	vertical-align: middle;
+	border: 1px solid;
+	padding: .5rem 1rem;
+	font-size: 1rem;
+	border-radius: .25rem;
+	margin: 1.5%;
+}
+
+.display-1{
+	margin: 0;
+}
+
+.display-2{
+	text-align: center;
+	margin-right: 50%;
+	margin-left: 0;
+}	
+
+.mi-hr{
+	border-top: 1px solid;
+	color: #FFB6C1;
+}
+
+.row{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.col-1{
+	font-size: 200%;
+	text-align: center;
+}
+
+.col-5{
+	margin-top: 2%;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.crowdsale{
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+
+.scroll-point{
+	position: relative;
+	top: -4rem;
+}
+
+.h4{
+	font-size: 150%;
+	font-weight: 400;
+}
+
+.col-lg-4 p{
+	margin: 0;
+}
+
+#stats{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#footer{
+	background: #FFC0CB;
+	text-align: center;
+	flex: 0 0 auto;
+}
+
+.btn{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.btn-link{
+	font-weight: 400;
+	color: #DC143C;
+}
+
+.hidden-sm-down{
+	font-size: 10;
+}
+
+@media(max-width: 1170px){
+	h1{font-size: 120%; letter-spacing: 0;}
+	span{font-size: 20px;}
+	.lead{font-size: 100%;}
+	.col-1 {font-size: 100%; font-weight: bold; text-transform: uppercase; }
+	.col-4{font-size: 150%; margin-left: 0; margin-right: 0;}
+	.btn{margin-left: 10px; margin-right: 10px;}
+	.btn span{margin-left: 0; margin-right: 0; display: none;}
+	#kitty_1, #kitty_2{height: 40px;}
+	#kitty-4{height: 100px;}	
+	#kitty_2, #kitty_5{height: 60px; margin: 5px;}
+}
+
+nav{
+	height: 40px;
+	font-size: 11pt;
+	/* font-family: 'PT Sans', Arial, sans-serif; */
+	font-weight: bold;
+	position: relative;
+}
+
+/* nav ul{ */
+	/* padding: 0; */
+	/* margin: 0 auto; */
+	/* width: 600px; */
+	/* height: 40px; */
+/* } */
+
+nav li{
+	display: inline;
+	float: left;
+}
+
+nav a {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+.main-menu:before, .main-menu:after{
+	content: " ";
+	display: table;
+}
+
+.main-menu:after{
+	clear: both;
+}
+
+.main-menu{
+	*zoom: 1;
+}
+
+@media(max-width: 1170px){
+	nav{height: auto;}
+	nav ul{width: 100%; display: block; height: auto; display: none; height: auto;}
+	nav li{width: 100%; float: none; position: relative; display: block;}
+	nav li a{text-align: left; width: 100%; text-indent: 25px;}
+	nav a{text-align: left; width: 100%; text-indent: 25px;}
+		
+}
+
+.text-left{
+	text-align: left;
+	padding-right: 20px;
+}
